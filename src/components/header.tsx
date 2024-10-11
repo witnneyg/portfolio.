@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="flex  justify-between items-center gap-5  px-14 py-6 md:px-24 md:py-11">
       <Link to="/">
-        <h4 className="font-semibold text-xl">Witnney</h4>
+        <h4 className="font-semibold text-xl hover:text-blue-400">Witnney</h4>
       </Link>
 
       <div className="flex gap-10 mt-1">

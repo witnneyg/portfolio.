@@ -27,7 +27,7 @@ export function WitStoreProject() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 mt-5">
         <a href="" target="blank">
           <span className="text-blue-500 cursor-pointer">Github project</span>
         </a>
