@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function ProjectsSection() {
   return (
     <div className="flex flex-col gap-8 mt-20">
-      <h3 className="font-bold text-2xl">Projects</h3>
+      <h3 className="font-semibold text-2xl">Projects</h3>
 
       <div className="grid  grid-cols-1 lg:grid-cols-2 gap-5 gap-y-12">
         <div className="flex flex-col">
@@ -16,7 +16,7 @@ export function ProjectsSection() {
           </Link>
           <div className="flex flex-col mt-4 gap-2">
             <Link to="/witstore">
-              <h4 className="font-bold text-2xl cursor-pointer hover:text-blue-400">
+              <h4 className="font-semibold text-2xl cursor-pointer hover:text-blue">
                 Wit Store
               </h4>
             </Link>
@@ -37,7 +37,7 @@ export function ProjectsSection() {
           </Link>
           <div className="flex flex-col mt-4 gap-2">
             <Link to="/witstore">
-              <h4 className="font-bold text-2xl cursor-pointer hover:text-blue-400">
+              <h4 className="font-semibold text-2xl cursor-pointer hover:text-blue">
                 Wit Store
               </h4>
             </Link>

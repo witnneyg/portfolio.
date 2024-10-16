@@ -9,7 +9,6 @@ export function App() {
       <div className="container mx-auto px-20 lg:px-44">
         <Outlet />
       </div>
-
       <div className="bg-zinc-900">
         <Footer />
       </div>
